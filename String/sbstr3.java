@@ -15,5 +15,6 @@ public class sbstr3{
             }
         }
         System.out.println(Username);
+        sc.close();
     }
 }
