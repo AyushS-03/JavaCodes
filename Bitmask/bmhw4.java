@@ -5,9 +5,15 @@ public class bmhw4{
         StringBuilder sb = new StringBuilder();
 
         if(n == 0){
-            System.out.println();
+            sb.append("0");
+        }else{
+            while(n > 0){
+                sb.append(n % 2);
+                n /= 2;
+            }
+            sb.reverse();
         }
-
+        System.out.println(sb);
     }
 
 
