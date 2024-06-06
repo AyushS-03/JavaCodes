@@ -39,6 +39,9 @@ public class bmhw4{
             System.out.println("Enter a binary number");
             String b = sc.next();
             binaryToDecimal(b);
+        }else{
+            System.out.println("Invalid Choice!");
         }
+        sc.close();
     }
 }
