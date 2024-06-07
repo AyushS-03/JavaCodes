@@ -1,0 +1,47 @@
+Bubble Sort:
+Compares each element one by one and if the previous element is greater than the next index, then it will replace with the element on the next index.
+7, 4, 9, 2, 5
+
+Iteration - 1: 	7, 4, 9, 2, 5
+		4, 7, 2, 5, 9 // largest element will be at last index
+
+Iteration - 2: 	4, 7, 2, 5, 9
+		4, 2, 5, 7, 9
+
+Iteration - 3: 	4, 2, 5, 7, 9
+		2, 4, 5, 7, 9
+
+Selection Sort:
+Replaces the traversing index with the smallest element in each iteration such that the traversing index will always have small element.
+5, 6, 4, 8, 1
+
+Iteration - 1: 	5, 6, 4, 8, 1
+	       	1, 6, 4, 8, 5
+
+Iteration - 2: 	1, 6, 4, 8, 5
+	       	1, 4, 6, 8, 5
+
+Iteration - 3: 	1, 4, 6, 8, 5
+	       	1, 4, 5, 8, 6
+
+Iteration - 4: 	1, 4, 5, 8, 6
+	       	1, 4, 5, 6, 8
+
+
+Insertion Sort:
+Starts the list with sorted array and compares it with unsorted one by one.
+5, 6, 4, 8, 1 - it will start with 5 as sorted
+
+Iteration - 1: 	5, 6, 4, 8, 1
+	       	5, 6 | 4, 8, 1
+
+Iteration - 2: 	5, 6| 4, 8, 1
+	       	[], _, _, 8, 1  //spaces for 5, 6 shifted forward  
+	       	4, 5, 6 | 8, 1
+
+Iteration - 3: 	4, 5, 6 | 8, 1
+	       	4, 5, 6, 8 | 1
+
+Iteration - 4: 	4, 5, 6, 8 | 1
+	       	[], _, _, _, _  // spaces for 4, 5, 6, 8 shifted forward
+	       	1, 4, 5, 6, 8 
