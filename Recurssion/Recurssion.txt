@@ -1,0 +1,1 @@
+When a fn. calls itself to do a work is called recurssion. The function will call itself in the same function and will keep calling itself until it is executed or cannot call itself anymore.
