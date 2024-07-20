@@ -7,7 +7,7 @@ public class strings {
         // String names = sc.next();
         // String Full = name+ " " +names;
         String sentence = "My name is Tony Stark";
-        System.out.println(sentence.substring(0));
+        System.out.println(sentence.substring(1));
         // sc.close();
         // String str = "123";
         // int number = Integer.parseInt(str);

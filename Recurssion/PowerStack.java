@@ -23,5 +23,6 @@ public class PowerStack {
         int p = sc.nextInt();
         int answer = powerC(n, p);
         System.out.println(answer);
+        sc.close();
     }
 }

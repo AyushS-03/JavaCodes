@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+// Prints the table of any no.
 public class loops {
     public static void table(int n) {
         int counter = 10;

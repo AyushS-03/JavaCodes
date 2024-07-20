@@ -16,7 +16,6 @@ public class two {
     }
 
     public static void main(String[] args) {
-        int d;
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         odd(n);

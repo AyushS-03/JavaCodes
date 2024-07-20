@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+// Enter 2d array and print them in spiral order
 public class twohw1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
